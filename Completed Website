@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>1 Col Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">jFlores2017</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#abt">About 
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutorial.html">Tutorials </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="train.html">Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tryout.html">Try-outs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!--*****************************************
+        I know it the ids dont go to the exact section, but I wanted to show the right way of bookmarking it, to show correctly, for example tutorials, I would have to bookmark the about header instead ********************-->
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 id="abt" class="my-4">Pr0-sK1LLz
+        <small>-A Website designed for that football/soccer athelte looking to take their skills and careers to the next level</small>
+      </h1>
+
+      <!-- Part 1 -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/tut.jpg" alt="learning">
+              </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="tut"><a href="tutorial.html">Top Notch Tutorials</a></h3>
+          <p class="ex">Tired of just watching Football on tv and not be part of the action? We offer a step by step guide on how to improve your personal skills. technique, passing, shooting, tactics, we have it all.</p>
+          <a class="btn btn-primary" href="#">shooting</a>
+            <a class="btn btn-primary" href="tutorial.html">ball controll</a>
+            <a class="btn btn-primary" href="tutorial.html">tactical</a>
+            <a class="btn btn-primary" href="tutorial.html">Enroll</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Part Two -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/dinho.jpg" alt="maestro">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="train" class="rx"><a href="train.html">Legendary Personal Training</a></h3>
+          <p class="rx">We offer top of the line trainers with the likes of former professional football players and coaches to fine tune your abilities in whatever area needed, they will prepare you with everything you need for when its time to prove yourself.</p>
+          <a class="btn btn-primary" href="train.html">Sign Up</a>
+            <a class="btn btn-primary" href="train.html">Locations</a>
+            <a class="btn btn-primary" href="train.html">Trainers</a>
+            <a class="btn btn-primary" href="train.html">customized schedule</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Part Three -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/tryouts.jpg" alt="tryout">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="try"><a href="tryout.html">Professional Try-outs</a></h3>
+          <p class="ex">We have connections to a wide variety of professional football clubs around the world for you to get a chance at becoming a professional football player. The system our company implements has had spectacular results and do to that we have try-out packages ready at very low prices that include travel, hotel and transportation. included are tickets to a profesional football match that you can attend to, so you can also enjoy while you take part of this life changing experience. </p>
+          <a class="btn btn-primary" href="tryout.html">Clubs</a>
+            <a class="btn btn-primary" href="tryout.html">Regions</a>
+            <a class="btn btn-primary" href="tryout.html">Travel packages</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Part Four -->
+      <div class="row">
+
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/adv.gif" alt="sponsors">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Sponsors</h3>
+          <p class="ex">If you are looking to become a world known brand, have connections with the biggest football teams in the world and would like to sponsor a future proskillz star along with our program, gives us a shout! </p>
+          <a class="btn btn-primary" href="#">Contact Us</a>
+            <a class="btn btn-primary" href="#">Sponsors</a>
+            <a class="btn btn-primary" href="#">Shop</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Pagination -->
+      <!--<ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>-->
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Pr0-sKILLz</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
+_______________________________________________
+<!--php-->
+
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "utf-8">
+        <script src="https://mbp.yimg.com/sy/os/yaft/yaft-0.3.10.min.js" defer></script>
+    </head>
+    <body>
+<?php   
+    $servername = "localhost";
+    $username = "jflores2017";
+    $password = "<!--cant show this-->";
+    $conn = new PDO("mysql:host=$servername;dbname=jflores2017", trim($username),trim($password)); 
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    //variables
+    //$u = $_SESSION['username'];
+    //$p = $_SESSION['password'];
+    $a = $_POST['name'];
+    $d = $_POST['kit'];
+    $c = $_POST['position'];
+    $x = $_POST['location'];
+    $y = $_POST['days'];
+    $z = $_POST['times'];
+    //check if their empty
+    
+    if (!$z || !$y || !$x || !$c || !$d || !$a) {
+        header('Location:home.php?unfilled');
+        exit;
+    }
+    //add values to the table
+    $reg = $conn->prepare("insert into training(name, kit, position, location, days, times) values('$a', '$d', '$c', '$x', '$y', '$z')");
+    $reg->execute();
+    header('Location:home.php?filled');
+?>
+</body>
+</html>
+
+_______________________________
+
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Information List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://mbp.yimg.com/sy/os/yaft/yaft-0.3.10.min.js" defer></script>
+    </head>
+    <body onload="init();">
+    <div style ="color:orange;">
+    <div id=time></div>
+<?php   
+    $servername = "localhost";
+    $username = "jflores2017";
+    $password = "**********************************************";
+    $conn = new PDO("mysql:host=$servername;dbname=jflores2017", trim($username),trim($password));
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    $stmt = $conn->prepare("SELECT * FROM training");
+    $stmt->execute();
+    $flag = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+    $result = $stmt ->fetchAll();
+    //var_dump($result);
+    echo "Here's The information you provided";
+    //print values from table  
+    echo "<table border = '1'><tr><th>Name</th><th>Kit</th><th>Position</th><th>Location</th><th>Days Available</th>
+    <th>Time Available</th></tr>";
+    for($i = 0;$i<count($result);$i++){
+         $row = $result[$i];
+         //echo "<tr><td>".$row["username"]."</td><td>".$row["password"]."</td><td>";
+         echo"<tr><td>".$row["name"]."</td>
+         <td>".$row["kit"]."</td><td>".$row["position"]."</td><td>".$row["location"]."</td><td>".$row["days"]."</td><td>".$row["times"]."</td></tr>";
+        } echo "</table>";
+        
+      echo "<p><a href='home.php' class = 'logout'>Click here</a> to add or change training information</p>";
+
+?>
+</div>
+</body>
+</html>
+<script type=text/javascript>
+
+function init()
+{
+    updateTime();
+    window.setInterval(updateTime,5000);
+}
+
+
+function updateTime()
+{
+    var time = document.getElementById('time');
+    time.innerText = new Date().toLocaleString();
+}
+
+</script>
+_______________________________________________
+
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://mbp.yimg.com/sy/os/yaft/yaft-0.3.10.min.js" defer></script>
+</head>
+    
+    <body onload="init();">
+   <div id=time style ="color:teal;" ></div>
+   <div class = "output">
+       
+    
+<body onload="init();">
+  <div style="color:teal">
+      <h1> Welcome Super Star </h1> 
+    <div class = "output">
+    <?php 
+        
+    if(isset($_GET['unfilled'])){
+        echo "One or more of the required fields have not been entered. Please try again!";
+    }else if(isset($_GET['filled'])){
+        echo"Information successfully added to list";
+    }
+    ?>
+    </div>
+   <div id="time" style="color:white;" float="left"></div>
+   <div class="login-page">
+   <div class="form">   
+    <form action="table.php" method="post">
+    <div class="form">
+        <form action = "registration.php" class="register-form" method = "post">
+        
+    <p class="message">Please enter your information</p>
+        
+       <input type="text" name="user" placeholder="Enter username"/>
+       <input type="password" name="passw" placeholder="Enter password"/>
+            </form>
+           <input type="text" name="name" placeholder="First and Last Name">
+       <input type="text" name="kit" placeholder="Kit Number">
+       <input type="text" name="position" placeholder="Player Position">
+           <input type="text" name="location" placeholder="Location">
+           <input type="text" name="days" placeholder="Days Availability">
+           <input type="text" name="times" placeholder="Time of Availability">   
+        <button>Submit</button>
+        </div>
+       </form>
+       <form action="print.php">
+       <input type="submit" value="print" class = "adjust">
+       <a href="logout.php" class = "logout">Logout</a>
+        </form>
+       </div>
+      </div>
+
+
+<script type="text/javascript">
+
+function init()
+{
+    updateTime();
+    window.setInterval(updateTime,5000);
+}
+
+
+function updateTime()
+{
+    var time = document.getElementById('time');
+    time.innerText = new Date().toLocaleString();
+}
+
+</script>
+       </body>   
+</html>
+
