@@ -1,0 +1,148 @@
+<html>
+<header>
+   <title>COP3813:Testing Framework Concepts</title>
+    <link re="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link href="https://fonts.googleapis.com/cssfamily=Electrolize" rel="stylesheet">
+
+</header>
+<body style="background-color:black;">
+    
+    <div class="grid">
+        <div class="row">
+<div class="col12"><h1>Name</h1>
+        <h2>Jose Flores
+            </h2></div>    
+            
+            <div class="row">
+            <div class="col3"><img src="images/soccer.jpg" alt="soccer" style="width:300px;height:400px;"></div>
+                
+                <div class=col3><img src="images/beach.jpg" alt="beach" style="width: 300px;height:400px"></div>
+                
+                <div class=col3><img src="images/football.jpg" alt="football" style="width: 300px;height:400px"></div>
+                
+                <div class=col3><img src="images/husky.jpg" alt="Husky" style="width: 300px;heigh:200px"></div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                <h2>Interest</h2>
+                <p>
+                One of my interests includes sports. I like watching and playing soccer. If you are not familiar with the sport, its where you kick a ball around trying to score a goal.
+                </p>
+            </div>
+            <div class="col4">
+            <h2>Interest</h2>
+                <p>
+                Another interst of mine would be watching football, which is like soccer except you use you hands to carry a ball to an endzone to score points.
+                
+                </p>
+            
+            </div>
+            <div class="col4">
+            <h2>Interest</h2>
+                <p>
+                I also enjoy the beach, geting in the water and playing with the waves when they are big enough to body surf. I also enjoy playing with my dog and letting him tire me out in the precess.
+                </p>
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col6">
+                <h2>Major</h2>
+                <p>The major I chose was Computer Engineering, simply because I love anything that has to do with technology</p>
+            </div>
+            <div class="col6"><h2 ID="Mark1">Fututre</h2>
+                <p>
+                What I would like to do in the fututre is enjoy life without having to worry about money and to be able to travel and see different cultures.                </p>
+            </div>
+        </div>
+    </div>
+
+<!--    //<iframe src="https://www.fau.edu">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+-->
+    
+    
+    
+</body>
+</html>
+___________________________________________________________________________________________
+
+<!--CSS-->
+
+* {
+    border: 1px solid green;
+}
+
+* {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.col1 {
+    width: 8.33%;
+}
+.col2 {
+    width: 16.66%;
+}
+.col3 {
+    width: 25%;
+}
+
+.col4 {
+    width: 33.33%;
+}
+
+.col5 {
+    width: 41.66%;
+}
+.col6 {
+    width: 50%;
+}
+.col9 {
+    width: 75%;
+}
+.col10 {
+    width: 83.333%;
+}
+.col12 {
+    width: 100%;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+p{
+        color: blue;
+        font-family: verdana;
+        font-size: 100%;
+    
+}
+
+h2{
+    text-align: center;
+    color: gray;
+    font-family: cursive;
+    font-size: 200%
+        
+}
+
+h1{
+    text-align: center;
+    color: gray;
+    font-family: cursive;
+    font-size: 200%
+        
+}
