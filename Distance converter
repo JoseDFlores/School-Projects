@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Distance Converter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="hw3.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+
+      </header>
+
+      <main role="main" class="inner cover">
+      <h1 class="h3 mb-3 font-weight-normal">Distance Converting Tool</h1>
+        <section>
+            <form class="centered"
+                  name="converter">
+                Centimeter: <input type="text" name="cm" onChange="cmConverter()"><br />
+                Inch: <input type="text" name="inch" onChange="inchConverter()"><br />
+                Feet: <input type="text" name="feet" onChange="feetConverter()"><br />
+                Millimeter: <input type="text" name="mm" onChange="mmConverter()"><br />
+                Meter: <input type="text" name="meter" onChange="meterConverter()"><br />
+                Kilometer: <input type="text" name="km" onChange="kmConverter()"><br />
+                Yard: <input type="text" name="yard" onChange="yardConverter()"><br />
+                Mile: <input type="text" name="mile" onChange="mileConverter()"><br />
+                Nautical Mile: <input type="text" name="nmi" onChange="nmiConverter()"><br />
+        </section>
+            <input type="button" value="Convert" />
+            </div>
+        </form>        
+      </main>
+     <script src="hw3.js"></script>
+  </body>
+</html>
+
+___________________________________________________________________________________
+
+<!--Js-->
+
+function cmConverter(){
+document.converter.mm.value = document.converter.cm.value * 10
+document.converter.meter.value = document.converter.cm.value / 100
+document.converter.km.value = document.converter.cm.value / 100000
+document.converter.inch.value = document.converter.cm.value * 0.39370078740157
+document.converter.feet.value = document.converter.cm.value * 0.032808398950131
+document.converter.yard.value = document.converter.cm.value * 0.010936132983377
+document.converter.mile.value = document.converter.cm.value * 0.0000062137119223733
+document.converter.nmi.value = document.converter.cm.value * 0.0000053995680345572
+}
+function inchConverter(){
+document.converter.mm.value = document.converter.inch.value * 25.4
+document.converter.cm.value = document.converter.inch.value * 2.54
+document.converter.meter.value = document.converter.inch.value * 0.0254
+document.converter.km.value = document.converter.inch.value * 0.0000254
+document.converter.feet.value = document.converter.inch.value * 0.083333333333333
+document.converter.yard.value = document.converter.inch.value * 0.02777777777778
+document.converter.mile.value = document.converter.inch.value * 0.0000157828282828
+document.converter.nmi.value = document.converter.inch.value * 0.000013714902807775
+}
+function meterConverter(){
+document.converter.mm.value = document.converter.meter.value * 1000
+document.converter.cm.value = document.converter.meter.value * 100
+document.converter.km.value = document.converter.meter.value / 1000
+document.converter.inch.value = document.converter.meter.value * 39.370078740157
+document.converter.feet.value = document.converter.meter.value * 3.2808398950131
+document.converter.yard.value = document.converter.meter.value * 1.0936132983377
+document.converter.mile.value = document.converter.meter.value * 0.00062137119223733
+document.converter.nmi.value = document.converter.meter.value * 0.00053995680345572
+}
+function feetConverter(){
+document.converter.mm.value = document.converter.feet.value * 304.8
+document.converter.cm.value = document.converter.feet.value / 30.48
+document.converter.meter.value = document.converter.feet.value * 0.3048
+document.converter.km.value = document.converter.feet.value * 0.0003048
+document.converter.inch.value = document.converter.feet.value * 12
+document.converter.yard.value = document.converter.feet.value * 0.33333333333333333
+document.converter.mile.value = document.converter.feet.value * 0.00018939393939394
+document.converter.nmi.value = document.converter.feet.value * 0.0001645788336933
+}
+function mmConverter(){
+document.converter.cm.value = document.converter.mm.value / 10
+document.converter.meter.value = document.converter.mm.value / 1000
+document.converter.km.value = document.converter.mm.value / 1000000
+document.converter.inch.value = document.converter.mm.value * 0.03970078740157
+document.converter.feet.value = document.converter.mm.value * 0.0032808398950131
+document.converter.yard.value = document.converter.mm.value * 0.0010936132983377
+document.converter.mile.value = document.converter.mm.value * 0.00000062137119223733
+document.converter.nmi.value = document.converter.mm.value * 0.00000053995680345572
+}
+function kmConverter(){
+document.converter.mm.value = document.converter.km.value * 1000000
+document.converter.cm.value = document.converter.km.value * 100000
+document.converter.meter.value = document.converter.km.value * 1000
+document.converter.inch.value = document.converter.km.value * 39370.078740157
+document.converter.feet.value = document.converter.km.value * 3280.8398950131
+document.converter.yard.value = document.converter.km.value * 1093.6132983377
+document.converter.mile.value = document.converter.km.value * 0.62137119223733
+document.converter.nmi.value = document.converter.km.value * 0.53995680345572
+}
+function yardConverter(){
+document.converter.mm.value = document.converter.yard.value * 914.4
+document.converter.cm.value = document.converter.yard.value * 91.44
+document.converter.meter.value = document.converter.yard.value * 0.9144
+document.converter.km.value = document.converter.yard.value * 0.0009144
+document.converter.inch.value = document.converter.yard.value * 36
+document.converter.feet.value = document.converter.yard.value * 3
+document.converter.mile.value = document.converter.yard.value * 0.00056818181818182
+document.converter.nmi.value = document.converter.yard.value * 0.00049373650107991
+}
+function mileConverter(){
+document.converter.mm.value = document.converter.mile.value * 1609344
+document.converter.cm.value = document.converter.mile.value * 160934.4
+document.converter.meter.value = document.converter.mile.value * 1609.344
+document.converter.km.value = document.converter.mile.value * 1.609344
+document.converter.inch.value = document.converter.mile.value * 63360
+document.converter.feet.value = document.converter.mile.value * 5280
+document.converter.yard.value = document.converter.mile.value * 1760
+document.converter.nauticalmile.value = document.converter.mile.value * 0.86897624190065
+}
+function nmiConverter(){
+document.converter.mm.value = document.converter.nmi.value * 1852000
+document.converter.cm.value = document.converter.nmi.value * 185200
+document.converter.meter.value = document.converter.nmi.value * 1852
+document.converter.km.value = document.converter.nmi.value * 1.852
+document.converter.inch.value = document.converter.nmi.value * 72913.385826772
+document.converter.feet.value = document.converter.nmi.value * 6076.1154855643
+document.converter.yard.value = document.converter.nmi.value *  2025.3718285214
+document.converter.mile.value = document.converter.nmi.value * 1.1507794480235
+}
+_____________________________________
+<!--CSS-->
+html,
+body{
+  height: 80%;
+}
+
+body{
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+h1{
+  text-align: center;
+    width: 100%;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+input{
+  display: inline-block;
+  float: right;
+}
+
+div{
+    width: 300px;
+}
+
+form{
+    width: 100%;
+    line-height: 140%;
+}
+
